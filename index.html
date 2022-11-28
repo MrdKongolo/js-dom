@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <title>A JavaScript DOM Cours</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">Bookorama</h1>
+          		<p>Books for Ninjas</p>
+				<form id="search-books">
+					<input type="text" placeholder="Search books..." />
+				</form>
+	    	</div>
+	    </header>
+	    <div id="book-list">
+	    	<h2 class="title">Des livres à lire</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="name">Le loup et l'agneau</span>
+	    			<span class="delete">Supprimer</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Le corbeau et le renard</span>
+	    			<span class="delete">Supprimer</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Des livres de vie</span>
+	    			<span class="delete">Supprimer</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">The Master and the Margarita</span>
+	    			<span class="delete">Supprimer</span>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-book">
+			<input type="checkbox" name="" id="hide" />
+			<label for="hide">Hide all books</label>
+	    	<input type="text" placeholder="Add a book..." />
+	    	<button>Add</button>
+	    </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
